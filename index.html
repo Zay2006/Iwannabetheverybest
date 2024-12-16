@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for animations -->
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Pokemon World</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pokemon World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center bg-light py-5">
+        <h2>Welcome to the Pokemon World!</h2>
+        <p class="lead">Discover your favorite Pokemon and explore their abilities.</p>
+        <div id="pokemon-display" class="row g-4"></div> <!-- Dynamic gallery -->
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="my-5">
+        <h3 class="text-center">Pokemon Gallery</h3>
+        <div id="gallery-container" class="row g-4"></div> <!-- Dynamic gallery -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>© 2024 Pokemon Website</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>

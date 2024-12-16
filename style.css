@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    width: 100%; /* Make cards responsive */
+    max-width: 150px; /* Set a max width for cards */
+    margin: auto; /* Center cards */
+}
+
+.pokemon-type {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Add colors for different types */
+.type-bug { background-color: yellowgreen; color: white; }
+.type-fire { background-color: orangered; color: white; }
+.type-water { background-color: deepskyblue; color: white; }
+.type-grass { background-color: lightgreen; color: black; }
+/* Add more types as needed */
